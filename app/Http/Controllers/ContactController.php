@@ -27,7 +27,7 @@ class ContactController extends Controller
         
     }
 
-    public function store(Request $request)
+    public function store(ContactRequest $request)
     {
         $inputs = new Contact;
         $inputs->fullname = $request->input('fullname');
@@ -43,6 +43,13 @@ class ContactController extends Controller
             compact('inputs')
         );
 
+    }
+
+    public function send()
+    {
+
+
+        return view('contact.thanks');
     }
 
    

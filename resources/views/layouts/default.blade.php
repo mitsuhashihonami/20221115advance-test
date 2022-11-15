@@ -37,6 +37,13 @@
     .contact__body {
       width: 70%;
     }
+    .btn{
+      width: 110px;
+      padding: 5px;
+      background-color: #000;
+      color: #fff;
+      border-radius: 5px;
+    }
   </style>
 </head>
 

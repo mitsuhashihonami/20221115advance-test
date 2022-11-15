@@ -15,7 +15,7 @@
   <div class="content">
     <div class="center">
     <h1 class="title">お問い合わせ</h1>
-    <form method="POST" action="{{ route('contact.store') }}">
+    <form method="POST" action="{{ route('contact.create') }}">
       @csrf
       <table class="contact__table">
         <tr class="contact__tr">
